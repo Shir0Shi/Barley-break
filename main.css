@@ -1,0 +1,78 @@
+body{
+    background-color: lightblue;
+    font-family: "Cooper Black";
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden
+}
+h2{
+    font-size: 280%;
+    position: relative;
+    left:38%;
+}
+main{
+
+}
+#game{
+    left: 35%;
+    position: relative;
+    width: 366px;
+    height: 366px;
+    background-color: aliceblue;
+
+}
+.gamePieces{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    font-size: 200%;
+    text-align: center;
+    background-color: lightgrey;
+    border: 1px black;
+    width: 90px;
+    height: 90px;
+}
+#piece16{
+    background-color: aliceblue;
+}
+#buttons{
+    margin-left: -87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mess, #mess2{
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 150%;
+}
+#win{
+
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 34%;
+    top: 20%;
+    background-color: aliceblue;
+
+    font-size: 250%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#submwin{
+    width: 120px;
+    height: 45px;
+    background-color: lightblue ;
+    border: none;
+    border-radius: 30px;
+    margin-top: -20px;
+}
